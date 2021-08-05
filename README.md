@@ -1,3 +1,5 @@
+Python
+
 The code before the beauty session:
 ```py
 def multiTableNxN(n):
@@ -8,5 +10,22 @@ def multiTableNxN(n):
         print(new_row)
         new_row = []
 
+multiTableNxN(12)
+```
+
+JavaScript
+
+The code before the beauty session:
+```js
+function multiTableNxN(n) {
+    let new_row = ""
+    for(let col = 1; col < n+1; col++) {
+        for(let row = 1; row < n+1; row++) {
+            new_row += row * col + " "
+        }
+        console.log(new_row)
+        new_row = []
+    }
+}
 multiTableNxN(12)
 ```
